@@ -1,0 +1,22 @@
+{
+  "name": "battleship-engine",
+  "version": "0.1.0",
+  "description": "A simple engine for playing a game of battleship.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --require babel-register"
+  },
+  "author": "Brian Hayes",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "lodash": "^4.17.4",
+    "mocha": "^4.1.0"
+  }
+}
